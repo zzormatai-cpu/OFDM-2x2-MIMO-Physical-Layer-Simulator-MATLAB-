@@ -1,6 +1,6 @@
 # OFDM 2x2 MIMO Physical Layer Simulator (MATLAB)
 
-## 📡 Overview
+## Overview
 This project implements a simplified Physical Layer (PHY) wireless communication system using MATLAB.  
 It models a **2x2 MIMO system with QPSK modulation** and evaluates performance using **BER vs SNR analysis**.
 
@@ -8,7 +8,7 @@ The simulator is inspired by real wireless PHY concepts used in modern systems s
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Simulate a basic wireless MIMO communication system
 - Analyze Bit Error Rate (BER) performance under different SNR conditions
 - Understand the effect of noise and channel on signal transmission
@@ -16,7 +16,7 @@ The simulator is inspired by real wireless PHY concepts used in modern systems s
 
 ---
 
-## 🧱 System Architecture
+## System Architecture
 
 The system consists of:
 
@@ -36,7 +36,7 @@ The system consists of:
 
 ---
 
-## ⚙️ Simulation Parameters
+## Simulation Parameters
 
 - Modulation: QPSK
 - MIMO: 2x2 system
@@ -47,7 +47,7 @@ The system consists of:
 
 ---
 
-## 📊 Results
+##  Results
 
 The simulation shows that:
 
@@ -55,14 +55,14 @@ The simulation shows that:
 - As SNR increases → BER decreases significantly
 - System performance improves with better signal quality
 
-## 📈 Key Insight
+##  Key Insight
 The system demonstrates the fundamental wireless communication principle:
 
 > Increasing SNR improves detection accuracy and reduces bit errors.
 
 ---
 
-## 🧠 Concepts Used
+##  Concepts Used
 - Digital Communication
 - QPSK Modulation
 - MIMO Systems
@@ -72,13 +72,13 @@ The system demonstrates the fundamental wireless communication principle:
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 - MATLAB R2020+ (or any recent version)
 - No additional toolboxes required (basic implementation)
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Open MATLAB
 2. Set project folder as current directory
